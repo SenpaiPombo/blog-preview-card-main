@@ -1,0 +1,75 @@
+@font-face {  
+    font-family: 'Figtree';
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+ }
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Figtree';
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 365px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 8px 8px hsl(0, 0%, 0%);
+}
+
+.img-topo{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text1{
+    background-color: hsl(47, 88%, 63%);
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.text2{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.text3{
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.text3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.text4{
+    margin-top: 15px;
+    line-height: 22px;
+    color: hsl(0, 0%, 50%);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.img-usuario{
+    width: 40px;
+}
+
+.usuario{
+    font-weight: 800;
+    font-size: 16px;
+}
